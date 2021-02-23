@@ -1,0 +1,23 @@
+{
+    "name": "jerson/extendable",
+    "description": "Components of BulkCMS",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jerson Carin",
+            "email": "jersoncarin25@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bulk\\Components\\Extendable": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
